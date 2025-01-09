@@ -91,6 +91,16 @@
   }
 }
 
+.profile {
+  width: 200px;  /* Ajusta el tamaño del contenedor */
+  height: 200px; /* Asegura que el contenedor sea cuadrado */
+  border-radius: 50%; /* Redondea el contenedor */
+  overflow: hidden; /* Esconde cualquier parte de la imagen que sobresalga */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -99,10 +109,11 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #544c4c27; 
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 hr {
   margin: 1rem 0;
